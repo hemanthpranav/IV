@@ -1,8 +1,8 @@
 class CarVisualization {
     constructor() {
-        this.margin = {top: 30, right: 20, bottom: 50, left: 60};
-        this.width = 400 - this.margin.left - this.margin.right;
-        this.height = 300 - this.margin.top - this.margin.bottom;
+        this.width = 350; // Reduced to fit 3 columns
+        this.height = 250; // Matches container height
+        this.margin = {top: 20, right: 20, bottom: 40, left: 50};
         
         this.data = [];
         this.filters = {
